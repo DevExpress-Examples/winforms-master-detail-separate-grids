@@ -19,8 +19,13 @@ GridControl2.DataMember = "CustomersOrders"<newline/>
 
 ```
 
-<p>If you are using a third-party data object or you have built your own, and it can contain master-detail data like <strong>System.Data.DataSet</strong> then you will probably be able to bind it's detail data to an XtraGrid as shown above.</p><p><strong>See Also:</strong><br />
-<a href="https://www.devexpress.com/Support/Center/p/A2750">How to use two XtraGrid controls to display collections of persistent objects with a one-to-many association</a></p>
+<p>If you are using a third-party data object or you have built your own, and it can contain master-detail data like <strong>System.Data.DataSet</strong> then you will probably be able to bind it's detail data to an XtraGrid as shown above.</p>
+
+<b>See also:</b>
+
+[How to use two XtraGrid controls to display collections of persistent objects with a one-to-many association](https://www.devexpress.com/Support/Center/p/A2750)
+
+[DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
 
 <br/>
 
