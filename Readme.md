@@ -10,7 +10,7 @@ A data source in this example is a DataSet object that contains master and detai
 The example shows how to display these tables in separate [Grid Controls](https://docs.devexpress.com/WindowsForms/3455/controls-and-libraries/data-grid).
 The first grid is bound to a master table. The second grid displays details for the master row selected in the first grid.
 
-To accomplish this data-binding task, the second grid is bound to a BindingSource component. The BindingSource component is initialized as follows:
+To link two grid controls, the second grid is bound to a BindingSource component that is initialized as follows:
 - The `BindingSource.DataSource` property is set to the first grid's data source.
 - The `BindingSource.DataMember` property is set to `CustomersPersons` (the name of the relationship between the master and detail tables).
 
