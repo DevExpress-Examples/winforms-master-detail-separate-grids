@@ -8,7 +8,7 @@
 
 A data source in this example is a DataSet object that contains master and detail tables linked by the `CustomersPersons` relationship. 
 The example shows how to display these tables in separate [Grid Controls](https://docs.devexpress.com/WindowsForms/3455/controls-and-libraries/data-grid).
-The first grid is bound to a master table. The second grid displays details for the selected master row in the first grid.
+The first grid is bound to a master table. The second grid displays details for the master row selected in the first grid.
 
 To accomplish this task, the second grid is bound to a BindingSource component that has the `BindingSource.DataMember` property set to `CustomersPersons` (the name of the relationship between the master and detail tables).
 
