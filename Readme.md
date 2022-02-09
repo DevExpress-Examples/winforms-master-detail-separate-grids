@@ -3,12 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E883)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Form1.cs](./CS/Q205299/Form1.cs) (VB: [Form1.Designer.vb](./VB/Q205299/Form1.Designer.vb))
-* [Form1.Designer.cs](./CS/Q205299/Form1.Designer.cs) (VB: [Form1.Designer.vb](./VB/Q205299/Form1.Designer.vb))
-<!-- default file list end -->
 # How to Display Master-Detail Tables in Separate Grid Controls
 
 
@@ -26,12 +21,16 @@ GridControl2.DataMember = "CustomersOrders"<newline/>
 
 <p>If you are using a third-party data object or you have built your own, and it can contain master-detail data like <strong>System.Data.DataSet</strong> then you will probably be able to bind it's detail data to an XtraGrid as shown above.</p>
 
-<b>See also:</b>
 
-[How to use two XtraGrid controls to display collections of persistent objects with a one-to-many association](https://www.devexpress.com/Support/Center/p/A2750)
+<!-- default file list -->
+## Files to Look At
 
-[DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
+* [Form1.cs](./CS/Q205299/Form1.cs) (VB: [Form1.vb](./VB/Q205299/Form1.vb))
 
-<br/>
+<!-- default file list end -->
 
+
+## See Also
+- [How to use two XtraGrid controls to display collections of persistent objects with a one-to-many association](https://supportcenter.devexpress.com/ticket/details/a2750/how-to-use-two-xtragrid-controls-to-display-collections-of-persistent-objects-with-a-one)
+- [DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
 
