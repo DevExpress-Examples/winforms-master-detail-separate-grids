@@ -6,7 +6,7 @@
 
 # Data Grid for Windows Forms - How to display master-detail tables in separate grid controls
 
-A data source in this example is a DataSet object that contains master and detail tables linked by the `CustomersPersons` relationship. 
+The data source in this example is a DataSet object that contains master and detail tables linked by the `CustomersPersons` relationship. 
 The example shows how to display these tables in separate [Grid Controls](https://docs.devexpress.com/WindowsForms/3455/controls-and-libraries/data-grid).
 The first grid is bound to a master table. The second grid displays details for the master row selected in the first grid.
 
