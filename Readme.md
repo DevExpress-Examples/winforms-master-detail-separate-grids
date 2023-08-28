@@ -4,18 +4,18 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Data Grid for Windows Forms - How to display master-detail tables in separate grid controls
+# WinForms Data Grid - How to display master-detail tables in separate grid controls
 
 The data source in this example is a DataSet object that contains master and detail tables linked by the `CustomersPersons` relationship. 
 The example shows how to display these tables in separate [Grid Controls](https://docs.devexpress.com/WindowsForms/3455/controls-and-libraries/data-grid).
 The first grid is bound to a master table. The second grid displays details for the master row selected in the first grid.
 
-To link two grid controls, the second grid is bound to a BindingSource component that is initialized as follows:
+To link two grid controls, the second grid is bound to a `BindingSource` component. This component is initialized as follows:
 - The `BindingSource.DataSource` property is set to the first grid's data source.
 - The `BindingSource.DataMember` property is set to `CustomersPersons` (the name of the relationship between the master and detail tables).
 
 <!-- default file list -->
-## Files to Look At
+## Files to Review
 
 * [Form1.cs](./CS/Q205299/Form1.cs) (VB: [Form1.vb](./VB/Q205299/Form1.vb))
 
